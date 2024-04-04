@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+VIC+WA+NT+Beginner&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Edu VIC WA NT Beginner', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 64px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 12px;
+    padding: 0 8px;
+}
+
+.brand img{
+    width: 40px;
+    border-radius: 30px;
+}
+
+.brand{
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    font-family: 'Dancing Script';
+}
+
+#heart{
+    color: skyblue;
+    padding: 2px;
+    size: 8vh;
+    margin-top: 8px;
+}
+
+.container{
+    height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Gulzar', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('darshan.jpg');
+    background-size: cover;
+}
+
+.bottom{
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 44px;
+}
+
+.songInfo{
+    display: grid;
+    font-family: 'Gulzar', sans-serif;
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    padding: 3px;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+#gif{
+    border-radius: 10vh;
+    object-position: 10%;
+}
